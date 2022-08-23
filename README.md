@@ -1,7 +1,7 @@
 # MTGNN-SUM
 This repository contains the implementation for our paper: Multi Graph Neural Network for Extractive Long Document Summarization.
 
-###Installation
+### Installation
 The code is written in Python 3.6+. Its dependencies are summarized in the file requirements.txt. You can install these dependencies like this:
 ```shell
 pip install -r requirements.txt
