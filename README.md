@@ -1,5 +1,5 @@
 # MTGNN-SUM
-This repository contains the implementation for our paper: Multi Graph Neural Network for Extractive Long Document Summarization.
+This repository contains the implementation for our paper: [Multi Graph Neural Network for Extractive Long Document Summarization](https://aclanthology.org/2022.coling-1.512.pdf)
 
 ### Installation
 The code is written in Python 3.6+. Its dependencies are summarized in the file requirements.txt. You can install these dependencies like this:
@@ -64,3 +64,14 @@ python evaluation.py --cuda --gpu 0 --data_dir dataset/arxiv --cache_dir cache/a
 **Error Handling**:  If you encounter the error message Cannot open exception db file for reading: /path/to/ROUGE-1.5.5/data/WordNet-2.0.exc.db when using pyrouge, the problem can be solved from [here](https://github.com/tagucci/pythonrouge#error-handling).
 
 Some code are borrowed from [HSG](https://github.com/dqwang122/HeterSumGraph). Thanks for their work.
+
+## Citation
+```bibtex
+@inproceedings{doan-etal-2022-multi,
+    title = "Multi Graph Neural Network for Extractive Long Document Summarization",
+    author = "Doan, Xuan-Dung  and Nguyen, Le-Minh  and Bui, Khac-Hoai Nam",
+    booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
+    year = "2022",
+
+}
+``` 
