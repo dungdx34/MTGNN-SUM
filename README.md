@@ -71,7 +71,6 @@ Some code are borrowed from [HSG](https://github.com/dqwang122/HeterSumGraph). T
     title = "Multi Graph Neural Network for Extractive Long Document Summarization",
     author = "Doan, Xuan-Dung  and Nguyen, Le-Minh  and Bui, Khac-Hoai Nam",
     booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
-    year = "2022",
-
+    year = "2022"
 }
 ``` 
